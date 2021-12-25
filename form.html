@@ -1,0 +1,80 @@
+<form id="myForm" onsubmit="handleFormSubmit(this)"> <!-- Call JavaScript function "handleFormSubmit" -->
+    <div id="message"></div>
+    <input type="text" id="RecId" name="RecId" value="" style="display: none">
+	<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+       	<div class="form-row">
+       <div class="inputfield col-md-6">
+          <label for="nama" >Name</label>
+          <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan nama lengkap" >
+       </div>
+        <div class="inputfield col-md-6">
+          <label for="nisn" >NISN</label>
+          <input type="text" class="form-control" id="nisn" name="nisn" placeholder="Masukan NISN" >
+       </div>  
+       	<div class="form-row">
+		<div class="form-group col-md-6">
+			 <p>Gender</p>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="gender" id="male" value="male">
+				<label class="form-check-label" for="male">Male</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="gender" id="female" value="female">
+				<label class="form-check-label" for="female">Female</label>
+			</div>
+		</div>
+    <div class="inputfield col-md-6">
+              <label for="alamat">Alamat</label>
+            <input type="text" class="input" id="alamat" name="alamat" placeholder="Masukan alamat/domisili">
+       </div> 
+
+       <div class="inputfield col-md-6">
+              <label for="tempatLahir">Tempat Lahir</label>
+            <input type="text" class="input" id="tempatLahir" name="tempatLahir" placeholder="Masukan tempat lahir">
+       </div> 
+
+        <div class="inputfield col-md-6">
+              <label for="tglLahir">Tanggal Lahir</label>
+            <input type="date" class="input" id="tglLahir" name="tglLahir">
+       </div> 
+
+      <div class="inputfield col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Masukan email">
+       </div> 
+
+      <div class="inputfield col-md-6">
+           <label for="phone">Kontak</label>
+          <input type="tel" class="input" id="phone" name="phone" placeholder="Masukan nomor telepon">
+       </div>
+
+      <div class="inputfield col-md-6">
+           <label for="exampleFormControlSelect1">Kelas</label>
+        <select class="form-control" id="kelas" name="kelas">
+          <option>---Pilih---</option>
+        </select>
+       </div>
+
+        <div class="inputfield col-md-6">
+           <label for="jurusan">Jurusan</label>
+          <select type="text" class="form-control" id="jurusan" name="jurusan" placeholder="Pilih jurusan">
+          <option>---Pilih---</option>
+          <option>IPA</option>
+          <option>IPS</option>
+          <option>TIK</option>
+          </select>
+       </div>
+
+
+      <div class="button">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <input class="btn btn-secondary" type="reset" value="Reset">
+      </div>
+    </div>
+</div> 
+  </div> 
+</form>

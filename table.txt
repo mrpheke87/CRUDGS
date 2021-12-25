@@ -1,0 +1,4 @@
+<div id="dataTable" class="table-responsive">
+  <!-- The Data Table is inserted here by JavaScript -->
+</div>
+<br>
